@@ -18,24 +18,6 @@ module.exports = [
     ]
   },
   {
-    imgn: "DSC01933.jpg",
-    name: "Stick",
-    make: "SONY",
-    model: "ILCE-7M2",
-    lens: "FE 28-70mm F3.5-5.6 OSS",
-    exposure: "1/60",
-    fstop: "22.0",
-    iso: 100,
-    focal: 70,
-    prices: [
-      { type: "digital", price: 0 },
-      { type: '3" × 5"', price: 5 },
-      { type: '4" × 6"', price: 7 },
-      { type: '5" × 7"', price: 9 },
-      { type: "A4", price: 12 }
-    ]
-  },
-  {
     imgn: "DSC02809.jpg",
     name: "Tia",
     make: "SONY",

@@ -1,8 +1,14 @@
 const path = require("path");
 const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
 const image = require("./image");
 
 const app = express();
+
+app.use(cors());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 const dir = path.join(__dirname, "static");
 
