@@ -18,7 +18,7 @@ app.get("/imgs", (req, res) => {
   const imgs = image.map(val => ({
     imgn: val.imgn,
     name: val.name,
-    price: val.prices[0].price
+    prices: val.prices
   }));
   res.send(imgs);
 });

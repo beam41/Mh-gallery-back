@@ -28,11 +28,11 @@ module.exports = [
     iso: 3200,
     focal: 70,
     prices: [
-      { type: "digital", price: 0 },
-      { type: '3" × 5"', price: 5 },
-      { type: '4" × 6"', price: 7 },
-      { type: '5" × 7"', price: 9 },
-      { type: "A4", price: 12 }
+      { type: "digital", price: 10 },
+      { type: '3" × 5"', price: 15 },
+      { type: '4" × 6"', price: 17 },
+      { type: '5" × 7"', price: 19 },
+      { type: "A4", price: 22 }
     ]
   },
   {
